@@ -1,7 +1,7 @@
 # for obstacle avoidance and goal-seeking
 import numpy as np
 import math
-
+# Hey there
 class ROV:
     def __init__(self, position, goal, obstacles, repulsive_strength=1.0, attractive_strength=1.0):
         self.position = np.array(position)  # Robot's current position
